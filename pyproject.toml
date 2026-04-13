@@ -17,7 +17,7 @@ classifiers = [
   'Programming Language :: Python :: 3.12'
 ]
 dependencies = [
-  'aiida-core[atomic_tools]~=2.1',
+  'aiida-core[atomic_tools] @ git+https://github.com/edan-bainglass/aiida-core.git@premise-demo',
   'ase!=3.20.*',
   'click~=8.0',
   'pint~=0.16',
@@ -57,7 +57,7 @@ abinit = [
 ]
 afm = [
   'ppafm==0.4.0',
-  'aiida-workgraph~=0.7.6'
+  'aiida-workgraph @ git+https://github.com/edan-bainglass/aiida-workgraph.git@premise-demo'
 ]
 all_plugins = [
   'abipy==0.9.6',
